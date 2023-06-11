@@ -43,4 +43,10 @@ Here are some useful sections of a docker-compose config file:
 - `ports` expose the ports needed for a container service
 - `image` defines the Docker base image to use
 
+### Run a sample wordpress container
 
+To run a local version of a Wordpress instance on your machine, follow the steps:
+- Make a directory
+- At the root of that directory, add my [sample docker-compose config file]("https://github.com/outoflaksh/docker-compose-notes/blob/main/wordpress-example/docker-compose.yaml").
+- Run the command `docker-compose up` at the root of the created directory.
+- Go to `localhost:8081` and voila!✨
